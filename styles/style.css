@@ -1,0 +1,77 @@
+body{
+	margin: 0;
+	background-color: #1BA0EF;
+	background-image: url(../images/Cloud.png); 
+	background-repeat: no-repeat;
+	background-position: left bottom;
+	font-family: Arial, sans-serif;
+	color: #fff;
+}
+
+.content{
+	font-size: 12px;
+	line-height: 1.3;
+	padding: 0px 100px;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+	color: rgb(255, 255, 255);
+}
+
+.content p{
+	margin: 0px;
+}
+
+.separator{
+	font-size: 11px;
+}
+
+.header{
+	padding: 0;
+}
+
+.header li{
+	display: inline;
+}
+
+a{
+	color: #fff;
+}
+
+a:hover{
+	color: #78320e;
+}
+
+.title {
+	font-weight: lighter;
+	margin: 0; 
+	font-size: 25px;
+	padding: 32px 0px;
+}
+
+.clusters div{
+	width: 350px;
+	padding:32px 34px 32px 0;
+	display: inline-block;
+	vertical-align:baseline;
+}
+
+.attention {
+	font-size: 13px;
+	width: 800px;
+}
+
+.attention img{
+	float: left; 
+	margin-right: 25px;
+	pointer-events: none;
+}
+
+footer{
+	font-size: 11px;
+	border-top: 1px solid #fff;
+	margin-top: auto;
+	width: 800px;
+	padding: 33px 0px;
+}
