@@ -9,7 +9,7 @@
 			return $minutesAngle - $hoursAngle; 
 		}
 		elseif($minutes < $hoursAngle){
-			return $hoursAngle - $minutesAngle; 
+			return $hoursAngle - $minutesAngle ; 
 		}
 		else{
 			return 0;
